@@ -1,0 +1,20 @@
+=========================
+{'step': '4', 'main_folder': 'domains/blocks/ASP', 'main_asp_file': 'domains/blocks/ASP/block_qasp.lp', 'domain_name': 'BlocksWorld', 'problem_asp_file': 'domains/blocks/ASP/blocks_4.lp'}
+=========================
+Ground only ONCE !!!!! :) 
+Plan : 1
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(on(c,b)),0)) _assumed(h(initially(clear(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(on(c,b)),0)) _holds'(h(initially(clear(c)),0)) occur(stack(d,c),1) occur(pick_up(d),0)
+==============================
+Plan : 2
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(on(c,b)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(on(c,b)),0)) occur(stack(d,c),1) occur(pick_up(d),0)
+==============================
+Plan : 3
+_assumed(h(initially(holding(c)),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _holds'(h(initially(holding(c)),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(b)),0)) occur(stack(c,b),0) occur(stack(d,c),2) occur(pick_up(d),1)
+==============================
+Plan : 4
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(clear(c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(c,b),1) occur(stack(d,c),3) occur(pick_up(c),0) occur(pick_up(d),2)
+==============================
+Plan : 5
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(c,b),1) occur(stack(d,c),3) occur(pick_up(c),0) occur(pick_up(d),2)
+==============================
+---Total time : 647.8026 seconds

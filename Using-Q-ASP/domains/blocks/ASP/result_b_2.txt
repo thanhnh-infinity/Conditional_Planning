@@ -1,0 +1,18 @@
+Plan : 1
+_assumed(h(initially(holding(b)),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(ontable(a)),0)) occur(stack(b,a),0) _holds'(h(initially(holding(b)),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(ontable(a)),0))
+==============================
+Plan : 2
+_assumed(h(initially(holding(b)),0)) _assumed(h(initially(ontable(a)),0)) occur(stack(b,a),2) occur(put_down(b),0) occur(pick_up(b),1) _holds'(h(initially(holding(b)),0)) _holds'(h(initially(ontable(a)),0))
+==============================
+Plan : 3
+_assumed(h(initially(holding(a)),0)) _assumed(h(initially(ontable(b)),0)) occur(stack(b,a),2) occur(put_down(a),0) occur(pick_up(b),1) _holds'(h(initially(holding(a)),0)) _holds'(h(initially(ontable(b)),0))
+==============================
+Plan : 4
+_assumed(h(initially(handempty),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(ontable(b)),0)) occur(stack(b,a),3) occur(put_down(b),1) occur(pick_up(b),0) occur(pick_up(b),2) _holds'(h(initially(handempty),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(ontable(b)),0))
+==============================
+Plan : 5
+_assumed(h(initially(handempty),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(b)),0)) occur(stack(b,a),3) occur(put_down(a),1) occur(pick_up(a),0) occur(pick_up(b),2) _holds'(h(initially(handempty),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(b)),0))
+==============================
+Plan : 6
+_assumed(h(initially(handempty),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(on(a,b)),0)) _assumed(h(initially(ontable(b)),0)) occur(stack(b,a),3) occur(put_down(a),1) occur(pick_up(b),2) occur(unstack(a,b),0) _holds'(h(initially(handempty),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(on(a,b)),0)) _holds'(h(initially(ontable(b)),0))
+==============================

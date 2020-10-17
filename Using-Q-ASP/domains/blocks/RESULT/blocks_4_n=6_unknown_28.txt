@@ -1,0 +1,32 @@
+=========================
+{'step': '6', 'main_folder': 'domains/blocks/ASP', 'main_asp_file': 'domains/blocks/ASP/block_qasp.lp', 'domain_name': 'BlocksWorld', 'problem_asp_file': 'domains/blocks/ASP/blocks_4.lp'}
+=========================
+Ground only ONCE !!!!! :) 
+Plan : 1
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(on(c,b)),0)) _assumed(h(initially(clear(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(on(c,b)),0)) _holds'(h(initially(clear(c)),0)) occur(stack(d,c),1) occur(pick_up(d),0)
+==============================
+Plan : 2
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(on(c,b)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(on(c,b)),0)) occur(stack(d,c),1) occur(pick_up(d),0)
+==============================
+Plan : 3
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(c,b),3) occur(stack(d,c),5) occur(put_down(d),1) occur(pick_up(c),2) occur(pick_up(d),0) occur(pick_up(d),4)
+==============================
+Plan : 4
+_assumed(h(initially(holding(c)),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _holds'(h(initially(holding(c)),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) occur(stack(c,d),0) occur(stack(c,b),2) occur(stack(d,c),4) occur(pick_up(d),3) occur(unstack(c,d),1)
+==============================
+Plan : 5
+_assumed(h(initially(handempty),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(on(b,c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(on(b,c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),1) occur(stack(c,b),3) occur(stack(d,c),5) occur(pick_up(c),2) occur(pick_up(d),4) occur(unstack(b,c),0)
+==============================
+Plan : 6
+_assumed(h(initially(holding(b)),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(holding(b)),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),0) occur(stack(c,b),2) occur(stack(d,c),4) occur(pick_up(c),1) occur(pick_up(d),3)
+==============================
+Plan : 7
+_assumed(h(initially(holding(b)),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(holding(b)),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),0) occur(stack(c,b),2) occur(stack(d,c),4) occur(pick_up(c),1) occur(pick_up(d),3)
+==============================
+Plan : 8
+_assumed(h(initially(handempty),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(on(b,c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(on(b,c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),1) occur(stack(c,b),3) occur(stack(d,c),5) occur(pick_up(c),2) occur(pick_up(d),4) occur(unstack(b,c),0)
+==============================
+Plan : 9
+_assumed(h(initially(handempty),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),1) occur(stack(c,b),3) occur(stack(d,c),5) occur(pick_up(b),0) occur(pick_up(c),2) occur(pick_up(d),4)
+==============================
+---Total time : 1688.1267 seconds

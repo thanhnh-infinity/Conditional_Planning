@@ -1,0 +1,116 @@
+=========================
+{'step': '10', 'main_folder': 'domains/blocks/ASP', 'main_asp_file': 'domains/blocks/ASP/block_qasp.lp', 'domain_name': 'BlocksWorld', 'problem_asp_file': 'domains/blocks/ASP/blocks_4.lp'}
+=========================
+Ground only ONCE !!!!! :) 
+Plan : 1
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(on(c,b)),0)) _assumed(h(initially(clear(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(on(c,b)),0)) _holds'(h(initially(clear(c)),0)) occur(stack(d,c),1) occur(pick_up(d),0)
+==============================
+Plan : 2
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(on(c,b)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(on(c,b)),0)) occur(stack(d,c),1) occur(pick_up(d),0)
+==============================
+Plan : 3
+_assumed(h(initially(handempty),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,d),1) occur(stack(b,a),3) occur(stack(c,b),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(pick_up(b),0) occur(pick_up(c),4) occur(pick_up(d),8) occur(unstack(b,d),2) occur(unstack(c,b),6)
+==============================
+Plan : 4
+_assumed(h(initially(handempty),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),1) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(d),3) occur(pick_up(b),0) occur(pick_up(c),6) occur(pick_up(d),2) occur(pick_up(d),8) occur(unstack(b,a),4)
+==============================
+Plan : 5
+_assumed(h(initially(holding(c)),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _holds'(h(initially(holding(c)),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) occur(stack(c,b),4) occur(stack(d,c),8) occur(put_down(c),0) occur(put_down(d),2) occur(put_down(d),6) occur(pick_up(c),3) occur(pick_up(d),1) occur(pick_up(d),5) occur(pick_up(d),7)
+==============================
+Plan : 6
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(c,b),1) occur(stack(d,c),3) occur(pick_up(c),0) occur(pick_up(d),2)
+==============================
+Plan : 7
+_assumed(h(initially(handempty),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),3) occur(stack(c,b),5) occur(stack(d,c),7) occur(put_down(d),1) occur(pick_up(b),2) occur(pick_up(c),4) occur(pick_up(d),0) occur(pick_up(d),6)
+==============================
+Plan : 8
+_assumed(h(initially(holding(b)),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(holding(b)),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),0) occur(stack(c,b),4) occur(stack(d,c),6) occur(put_down(d),2) occur(pick_up(c),3) occur(pick_up(d),1) occur(pick_up(d),5)
+==============================
+Plan : 9
+_assumed(h(initially(holding(b)),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(holding(b)),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),0) occur(stack(c,b),6) occur(stack(d,c),2) occur(stack(d,c),8) occur(put_down(d),4) occur(pick_up(c),5) occur(pick_up(d),1) occur(pick_up(d),7) occur(unstack(d,c),3)
+==============================
+Plan : 10
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(c),3) occur(put_down(d),1) occur(pick_up(c),2) occur(pick_up(c),6) occur(pick_up(d),0) occur(pick_up(d),8) occur(unstack(b,a),4)
+==============================
+Plan : 11
+_assumed(h(initially(handempty),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(on(a,b)),0)) _assumed(h(initially(on(b,c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(on(a,b)),0)) _holds'(h(initially(on(b,c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),1) occur(put_down(d),3) occur(pick_up(c),6) occur(pick_up(d),2) occur(pick_up(d),8) occur(unstack(a,b),0) occur(unstack(b,c),4)
+==============================
+Plan : 12
+_assumed(h(initially(handempty),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(on(b,c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(on(b,c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),3) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(d),1) occur(put_down(d),5) occur(pick_up(c),6) occur(pick_up(d),0) occur(pick_up(d),4) occur(pick_up(d),8) occur(unstack(b,c),2)
+==============================
+Plan : 13
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(b,a)),0)) _assumed(h(initially(on(a,c)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(b,a)),0)) _holds'(h(initially(on(a,c)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,d),1) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),3) occur(pick_up(c),6) occur(pick_up(d),8) occur(unstack(a,c),2) occur(unstack(b,a),0) occur(unstack(b,d),4)
+==============================
+Plan : 14
+_assumed(h(initially(holding(c)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(b)),0)) _holds'(h(initially(holding(c)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(b)),0)) occur(stack(b,a),4) occur(stack(c,b),6) occur(stack(d,c),8) occur(put_down(a),2) occur(put_down(c),0) occur(pick_up(a),1) occur(pick_up(b),3) occur(pick_up(c),5) occur(pick_up(d),7)
+==============================
+Plan : 15
+_assumed(h(initially(holding(a)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(holding(a)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(a,d),0) occur(stack(b,a),4) occur(stack(c,b),6) occur(stack(d,c),8) occur(put_down(a),2) occur(pick_up(b),3) occur(pick_up(c),5) occur(pick_up(d),7) occur(unstack(a,d),1)
+==============================
+Plan : 16
+_assumed(h(initially(handempty),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(on(c,b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(clear(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(on(c,b)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(clear(c)),0)) occur(stack(b,a),5) occur(stack(c,b),1) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(c),3) occur(pick_up(b),4) occur(pick_up(c),6) occur(pick_up(d),8) occur(unstack(c,b),0) occur(unstack(c,b),2)
+==============================
+Plan : 17
+_assumed(h(initially(holding(b)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(holding(b)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,d),0) occur(stack(b,a),2) occur(stack(c,b),6) occur(stack(d,c),8) occur(put_down(d),4) occur(pick_up(c),5) occur(pick_up(d),3) occur(pick_up(d),7) occur(unstack(b,d),1)
+==============================
+Plan : 18
+_assumed(h(initially(holding(a)),0)) _assumed(h(initially(on(b,c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(holding(a)),0)) _holds'(h(initially(on(b,c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),2) occur(stack(c,d),4) occur(stack(c,b),6) occur(stack(d,c),8) occur(put_down(a),0) occur(pick_up(c),3) occur(pick_up(d),7) occur(unstack(b,c),1) occur(unstack(c,d),5)
+==============================
+Plan : 19
+_assumed(h(initially(handempty),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(on(a,c)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(on(a,c)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),1) occur(put_down(d),3) occur(pick_up(b),4) occur(pick_up(c),6) occur(pick_up(d),2) occur(pick_up(d),8) occur(unstack(a,c),0)
+==============================
+Plan : 20
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(c,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(clear(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(c,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(clear(c)),0)) occur(stack(b,a),5) occur(stack(c,a),1) occur(stack(c,d),3) occur(stack(c,b),7) occur(stack(d,c),9) occur(pick_up(b),4) occur(pick_up(d),8) occur(unstack(c,a),0) occur(unstack(c,a),2) occur(unstack(c,d),6)
+==============================
+Plan : 21
+_assumed(h(initially(holding(c)),0)) _assumed(h(initially(on(a,b)),0)) _assumed(h(initially(ontable(b)),0)) _holds'(h(initially(holding(c)),0)) _holds'(h(initially(on(a,b)),0)) _holds'(h(initially(ontable(b)),0)) occur(stack(b,a),4) occur(stack(c,d),0) occur(stack(c,b),6) occur(stack(d,c),8) occur(put_down(a),2) occur(pick_up(b),3) occur(pick_up(d),7) occur(unstack(a,b),1) occur(unstack(c,d),5)
+==============================
+Plan : 22
+_assumed(h(initially(holding(a)),0)) _assumed(h(initially(on(c,b)),0)) _assumed(h(initially(ontable(b)),0)) _holds'(h(initially(holding(a)),0)) _holds'(h(initially(on(c,b)),0)) _holds'(h(initially(ontable(b)),0)) occur(stack(b,a),4) occur(stack(c,d),2) occur(stack(c,b),6) occur(stack(d,c),8) occur(put_down(a),0) occur(pick_up(b),3) occur(pick_up(d),7) occur(unstack(c,b),1) occur(unstack(c,d),5)
+==============================
+Plan : 23
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(a,b)),0)) _assumed(h(initially(on(b,c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(a,b)),0)) _holds'(h(initially(on(b,c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),3) occur(put_down(d),1) occur(pick_up(c),6) occur(pick_up(d),0) occur(pick_up(d),8) occur(unstack(a,b),2) occur(unstack(b,c),4)
+==============================
+Plan : 24
+_assumed(h(initially(holding(b)),0)) _assumed(h(initially(on(c,a)),0)) _assumed(h(initially(ontable(a)),0)) _holds'(h(initially(holding(b)),0)) _holds'(h(initially(on(c,a)),0)) _holds'(h(initially(ontable(a)),0)) occur(stack(b,d),0) occur(stack(b,a),4) occur(stack(c,b),6) occur(stack(d,c),8) occur(put_down(c),2) occur(pick_up(c),5) occur(pick_up(d),7) occur(unstack(b,d),3) occur(unstack(c,a),1)
+==============================
+Plan : 25
+_assumed(h(initially(handempty),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(on(a,b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(on(a,b)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,c),3) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),1) occur(pick_up(b),2) occur(pick_up(c),6) occur(pick_up(d),8) occur(unstack(a,b),0) occur(unstack(b,c),4)
+==============================
+Plan : 26
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(a,b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(a,b)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),3) occur(put_down(d),1) occur(pick_up(b),4) occur(pick_up(c),6) occur(pick_up(d),0) occur(pick_up(d),8) occur(unstack(a,b),2)
+==============================
+Plan : 27
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(a,c)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(a,c)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),3) occur(put_down(b),1) occur(pick_up(b),0) occur(pick_up(b),4) occur(pick_up(c),6) occur(pick_up(d),8) occur(unstack(a,c),2)
+==============================
+Plan : 28
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(c,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(ontable(b)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(c,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(ontable(b)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(b),1) occur(put_down(c),3) occur(pick_up(b),0) occur(pick_up(b),4) occur(pick_up(c),6) occur(pick_up(d),8) occur(unstack(c,a),2)
+==============================
+Plan : 29
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(c,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(clear(b)),0)) _assumed(h(initially(on(b,c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(c,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(clear(b)),0)) _holds'(h(initially(on(b,c)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(b),1) occur(put_down(c),3) occur(pick_up(b),4) occur(pick_up(c),6) occur(pick_up(d),8) occur(unstack(b,c),0) occur(unstack(c,a),2)
+==============================
+Plan : 30
+_assumed(h(initially(handempty),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(on(a,c)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(on(a,c)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),1) occur(put_down(c),3) occur(pick_up(b),4) occur(pick_up(c),2) occur(pick_up(c),6) occur(pick_up(d),8) occur(unstack(a,c),0)
+==============================
+Plan : 31
+_assumed(h(initially(handempty),0)) _assumed(h(initially(clear(a)),0)) _assumed(h(initially(on(a,c)),0)) _assumed(h(initially(on(c,b)),0)) _assumed(h(initially(ontable(b)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(clear(a)),0)) _holds'(h(initially(on(a,c)),0)) _holds'(h(initially(on(c,b)),0)) _holds'(h(initially(ontable(b)),0)) occur(stack(b,a),5) occur(stack(c,d),3) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),1) occur(pick_up(b),4) occur(pick_up(d),8) occur(unstack(a,c),0) occur(unstack(c,b),2) occur(unstack(c,d),6)
+==============================
+Plan : 32
+_assumed(h(initially(holding(b)),0)) _assumed(h(initially(on(a,c)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(holding(b)),0)) _holds'(h(initially(on(a,c)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,d),0) occur(stack(b,a),4) occur(stack(c,b),6) occur(stack(d,c),8) occur(put_down(a),2) occur(pick_up(c),5) occur(pick_up(d),7) occur(unstack(a,c),1) occur(unstack(b,d),3)
+==============================
+Plan : 33
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(c,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(clear(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(c,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(clear(c)),0)) occur(stack(b,a),5) occur(stack(c,b),1) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(c),3) occur(pick_up(b),4) occur(pick_up(c),6) occur(pick_up(d),8) occur(unstack(c,a),0) occur(unstack(c,b),2)
+==============================
+Plan : 34
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(c,a)),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(ontable(b)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(c,a)),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(ontable(b)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(c),3) occur(put_down(d),1) occur(pick_up(b),4) occur(pick_up(c),6) occur(pick_up(d),0) occur(pick_up(d),8) occur(unstack(c,a),2)
+==============================
+Plan : 35
+_assumed(h(initially(handempty),0)) _assumed(h(initially(ontable(a)),0)) _assumed(h(initially(on(c,b)),0)) _assumed(h(initially(ontable(b)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(ontable(a)),0)) _holds'(h(initially(on(c,b)),0)) _holds'(h(initially(ontable(b)),0)) occur(stack(b,a),5) occur(stack(c,d),3) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(d),1) occur(pick_up(b),4) occur(pick_up(d),0) occur(pick_up(d),8) occur(unstack(c,b),2) occur(unstack(c,d),6)
+==============================
+Plan : 36
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(c,a)),0)) _assumed(h(initially(on(a,b)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(clear(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(c,a)),0)) _holds'(h(initially(on(a,b)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(clear(c)),0)) occur(stack(b,a),5) occur(stack(c,d),1) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),3) occur(pick_up(b),4) occur(pick_up(d),8) occur(unstack(a,b),2) occur(unstack(c,a),0) occur(unstack(c,d),6)
+==============================
+Plan : 37
+_assumed(h(initially(handempty),0)) _assumed(h(initially(on(a,c)),0)) _assumed(h(initially(ontable(b)),0)) _assumed(h(initially(ontable(c)),0)) _holds'(h(initially(handempty),0)) _holds'(h(initially(on(a,c)),0)) _holds'(h(initially(ontable(b)),0)) _holds'(h(initially(ontable(c)),0)) occur(stack(b,a),5) occur(stack(c,b),7) occur(stack(d,c),9) occur(put_down(a),3) occur(put_down(d),1) occur(pick_up(b),4) occur(pick_up(c),6) occur(pick_up(d),0) occur(pick_up(d),8) occur(unstack(a,c),2)
+==============================
+---Total time : 10688.4224 seconds
